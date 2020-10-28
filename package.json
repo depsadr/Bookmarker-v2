@@ -1,0 +1,33 @@
+{
+  "name": "bookmarker",
+  "version": "2.0.0",
+  "description": "Online Bookmarker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickSchubert87/Bookmarker.git"
+  },
+  "author": "Patrick Schubert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatrickSchubert87/Bookmarker/issues"
+  },
+  "homepage": "https://github.com/PatrickSchubert87/Bookmarker#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "knex": "^0.21.8",
+    "mysql": "^2.18.1",
+    "unfurl.js": "^5.1.0"
+  }
+}
